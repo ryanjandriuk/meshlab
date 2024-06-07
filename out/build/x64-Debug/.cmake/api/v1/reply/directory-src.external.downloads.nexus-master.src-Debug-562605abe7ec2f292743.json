@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/nexus-master/src",
+		"source" : "src/external/downloads/nexus-master/src"
+	}
+}

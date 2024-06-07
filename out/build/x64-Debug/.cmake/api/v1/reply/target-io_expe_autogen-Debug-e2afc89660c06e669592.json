@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/meshlabplugins/io_expe/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "io_expe_autogen_timestamp_deps::@28a7844a2adb038352af"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Plugins"
+	},
+	"id" : "io_expe_autogen::@28a7844a2adb038352af",
+	"isGeneratorProvided" : true,
+	"name" : "io_expe_autogen",
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/io_expe",
+		"source" : "src/meshlabplugins/io_expe"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/io_expe/CMakeFiles/io_expe_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/io_expe/CMakeFiles/io_expe_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/io_expe/io_expe_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

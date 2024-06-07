@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/meshlabplugins/filter_cubization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "filter_cubization_autogen_timestamp_deps::@1e471c9141326ef5b69f"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Plugins"
+	},
+	"id" : "filter_cubization_autogen::@1e471c9141326ef5b69f",
+	"isGeneratorProvided" : true,
+	"name" : "filter_cubization_autogen",
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/filter_cubization",
+		"source" : "src/meshlabplugins/filter_cubization"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_cubization/CMakeFiles/filter_cubization_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_cubization/CMakeFiles/filter_cubization_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_cubization/filter_cubization_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

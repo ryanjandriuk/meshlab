@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/u3d-1.5.1",
+		"source" : "src/external/downloads/u3d-1.5.1"
+	}
+}

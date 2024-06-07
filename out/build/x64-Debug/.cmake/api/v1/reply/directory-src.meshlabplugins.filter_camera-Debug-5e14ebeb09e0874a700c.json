@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_meshlab_plugin"
+		],
+		"files" : 
+		[
+			"src/cmake/meshlab_tools.cmake",
+			"src/meshlabplugins/filter_camera/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"destination" : "plugins",
+			"paths" : 
+			[
+				"src/distrib/plugins/filter_camera.dll"
+			],
+			"targetId" : "filter_camera::@90b1c8b0cf733d989831",
+			"targetIndex" : 208,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "filter_camera::@90b1c8b0cf733d989831",
+				"index" : 208
+			},
+			"destination" : "plugins",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/filter_camera",
+		"source" : "src/meshlabplugins/filter_camera"
+	}
+}

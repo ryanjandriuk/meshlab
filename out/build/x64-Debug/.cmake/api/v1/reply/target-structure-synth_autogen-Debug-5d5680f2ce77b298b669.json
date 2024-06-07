@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/external/downloads/StructureSynth-1.5.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "structure-synth_autogen_timestamp_deps::@e2d7a889f6ab0647ca56"
+		}
+	],
+	"id" : "structure-synth_autogen::@e2d7a889f6ab0647ca56",
+	"isGeneratorProvided" : true,
+	"name" : "structure-synth_autogen",
+	"paths" : 
+	{
+		"build" : "src/external/downloads/StructureSynth-1.5.1",
+		"source" : "src/external/downloads/StructureSynth-1.5.1"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/StructureSynth-1.5.1/CMakeFiles/structure-synth_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/StructureSynth-1.5.1/CMakeFiles/structure-synth_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/StructureSynth-1.5.1/structure-synth_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

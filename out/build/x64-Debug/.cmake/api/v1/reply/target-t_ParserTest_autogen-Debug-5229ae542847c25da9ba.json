@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/external/downloads/muparser-2.3.3-1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "t_ParserTest_autogen_timestamp_deps::@2d13d90c13fcee86d97e"
+		}
+	],
+	"id" : "t_ParserTest_autogen::@2d13d90c13fcee86d97e",
+	"isGeneratorProvided" : true,
+	"name" : "t_ParserTest_autogen",
+	"paths" : 
+	{
+		"build" : "src/external/downloads/muparser-2.3.3-1",
+		"source" : "src/external/downloads/muparser-2.3.3-1"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/CMakeFiles/t_ParserTest_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/CMakeFiles/t_ParserTest_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/t_ParserTest_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

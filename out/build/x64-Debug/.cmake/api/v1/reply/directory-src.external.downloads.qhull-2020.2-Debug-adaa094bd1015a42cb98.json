@@ -1,0 +1,509 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/external/downloads/qhull-2020.2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 688,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 713,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 746,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 749,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 750,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 751,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 752,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 753,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 754,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 755,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 756,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 757,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qhull.exe"
+			],
+			"targetId" : "qhull::@d25c1a5046b6538554c6",
+			"targetIndex" : 406,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/rbox.exe"
+			],
+			"targetId" : "rbox::@d25c1a5046b6538554c6",
+			"targetIndex" : 431,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qconvex.exe"
+			],
+			"targetId" : "qconvex::@d25c1a5046b6538554c6",
+			"targetIndex" : 397,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qdelaunay.exe"
+			],
+			"targetId" : "qdelaunay::@d25c1a5046b6538554c6",
+			"targetIndex" : 400,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qvoronoi.exe"
+			],
+			"targetId" : "qvoronoi::@d25c1a5046b6538554c6",
+			"targetIndex" : 428,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qhalf.exe"
+			],
+			"targetId" : "qhalf::@d25c1a5046b6538554c6",
+			"targetIndex" : 403,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/qhull_rd.lib"
+			],
+			"targetId" : "qhull_r::@d25c1a5046b6538554c6",
+			"targetIndex" : 413,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/qhull_rd.dll"
+			],
+			"targetId" : "qhull_r::@d25c1a5046b6538554c6",
+			"targetIndex" : 413,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/qhullcpp_d.lib"
+			],
+			"targetId" : "qhullcpp::@d25c1a5046b6538554c6",
+			"targetIndex" : 416,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/qhullstatic_d.lib"
+			],
+			"targetId" : "qhullstatic::@d25c1a5046b6538554c6",
+			"targetIndex" : 422,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/qhullstatic_rd.lib"
+			],
+			"targetId" : "qhullstatic_r::@d25c1a5046b6538554c6",
+			"targetIndex" : 425,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Qhull",
+			"exportName" : "QhullTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qhull::@d25c1a5046b6538554c6",
+					"index" : 406
+				},
+				{
+					"id" : "rbox::@d25c1a5046b6538554c6",
+					"index" : 431
+				},
+				{
+					"id" : "qconvex::@d25c1a5046b6538554c6",
+					"index" : 397
+				},
+				{
+					"id" : "qdelaunay::@d25c1a5046b6538554c6",
+					"index" : 400
+				},
+				{
+					"id" : "qvoronoi::@d25c1a5046b6538554c6",
+					"index" : 428
+				},
+				{
+					"id" : "qhalf::@d25c1a5046b6538554c6",
+					"index" : 403
+				},
+				{
+					"id" : "qhull_r::@d25c1a5046b6538554c6",
+					"index" : 413
+				},
+				{
+					"id" : "qhullcpp::@d25c1a5046b6538554c6",
+					"index" : 416
+				},
+				{
+					"id" : "qhullstatic::@d25c1a5046b6538554c6",
+					"index" : 422
+				},
+				{
+					"id" : "qhullstatic_r::@d25c1a5046b6538554c6",
+					"index" : 425
+				}
+			],
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/CMakeFiles/Export/465f793e10159796235ed77137e4ba6d/QhullTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/cmake/Qhull",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/QhullExport/QhullConfig.cmake",
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/QhullExport/QhullConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Devel",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/qhull_rd.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/qhullstatic_d.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Devel",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/qhullstatic_rd.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Devel",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/qhull-2020.2/qhullcpp_d.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/libqhull",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/src/libqhull/libqhull.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/geom.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/io.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/mem.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/merge.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/poly.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/qhull_a.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/qset.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/random.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/stat.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull/user.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/libqhull",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/src/libqhull/DEPRECATED.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/libqhull_r",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/libqhull_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/geom_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/io_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/mem_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/merge_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/poly_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/qhull_ra.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/qset_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/random_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/stat_r.h",
+				"src/external/downloads/qhull-2020.2/src/libqhull_r/user_r.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/libqhullcpp",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/Coordinates.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/functionObjects.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/PointCoordinates.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/Qhull.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullError.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullFacet.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullFacetList.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullFacetSet.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullHyperplane.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullIterator.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullLinkedList.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullPoint.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullPoints.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullPointSet.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullQh.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullRidge.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullSet.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullSets.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullStat.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullUser.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullVertex.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/QhullVertexSet.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/RboxPoints.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/RoadError.h",
+				"src/external/downloads/qhull-2020.2/src/libqhullcpp/RoadLogEvent.h",
+				"src/external/downloads/qhull-2020.2/src/qhulltest/RoadTest.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				{
+					"from" : "src/external/downloads/qhull-2020.2/html/qhull.man",
+					"to" : "qhull.1"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				{
+					"from" : "src/external/downloads/qhull-2020.2/html/rbox.man",
+					"to" : "rbox.1"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/doc/qhull",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/README.txt",
+				"src/external/downloads/qhull-2020.2/REGISTER.txt",
+				"src/external/downloads/qhull-2020.2/Announce.txt",
+				"src/external/downloads/qhull-2020.2/COPYING.txt",
+				"src/external/downloads/qhull-2020.2/index.htm"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "share/doc/qhull/html",
+			"paths" : 
+			[
+				{
+					"from" : "src/external/downloads/qhull-2020.2/html",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/doc/qhull/src",
+			"paths" : 
+			[
+				"src/external/downloads/qhull-2020.2/src/Changes.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/qhull-2020.2",
+		"source" : "src/external/downloads/qhull-2020.2"
+	}
+}

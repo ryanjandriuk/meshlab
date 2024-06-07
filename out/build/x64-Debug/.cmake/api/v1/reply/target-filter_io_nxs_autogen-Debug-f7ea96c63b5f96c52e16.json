@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/meshlabplugins/filter_io_nxs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "filter_io_nxs_autogen_timestamp_deps::@3798e6408370324ff053"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Plugins"
+	},
+	"id" : "filter_io_nxs_autogen::@3798e6408370324ff053",
+	"isGeneratorProvided" : true,
+	"name" : "filter_io_nxs_autogen",
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/filter_io_nxs",
+		"source" : "src/meshlabplugins/filter_io_nxs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_io_nxs/CMakeFiles/filter_io_nxs_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_io_nxs/CMakeFiles/filter_io_nxs_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_io_nxs/filter_io_nxs_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

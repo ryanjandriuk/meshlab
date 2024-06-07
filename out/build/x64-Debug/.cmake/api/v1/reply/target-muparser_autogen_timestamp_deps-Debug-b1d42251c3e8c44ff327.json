@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/external/downloads/muparser-2.3.3-1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "muparser_autogen_timestamp_deps::@2d13d90c13fcee86d97e",
+	"isGeneratorProvided" : true,
+	"name" : "muparser_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/external/downloads/muparser-2.3.3-1",
+		"source" : "src/external/downloads/muparser-2.3.3-1"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/CMakeFiles/muparser_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/CMakeFiles/muparser_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

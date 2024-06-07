@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_meshlab_plugin"
+		],
+		"files" : 
+		[
+			"src/cmake/meshlab_tools.cmake",
+			"src/meshlabplugins/filter_colorproc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"destination" : "plugins",
+			"paths" : 
+			[
+				"src/distrib/plugins/filter_colorproc.dll"
+			],
+			"targetId" : "filter_colorproc::@611aa23a68fcf43d185e",
+			"targetIndex" : 217,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "filter_colorproc::@611aa23a68fcf43d185e",
+				"index" : 217
+			},
+			"destination" : "plugins",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/filter_colorproc",
+		"source" : "src/meshlabplugins/filter_colorproc"
+	}
+}

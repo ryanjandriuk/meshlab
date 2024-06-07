@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_meshlab_plugin"
+		],
+		"files" : 
+		[
+			"src/cmake/meshlab_tools.cmake",
+			"src/meshlabplugins/io_base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"destination" : "plugins",
+			"paths" : 
+			[
+				"src/distrib/plugins/io_base.dll"
+			],
+			"targetId" : "io_base::@c5408967412e9ec379f7",
+			"targetIndex" : 337,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "io_base::@c5408967412e9ec379f7",
+				"index" : 337
+			},
+			"destination" : "plugins",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/io_base",
+		"source" : "src/meshlabplugins/io_base"
+	}
+}

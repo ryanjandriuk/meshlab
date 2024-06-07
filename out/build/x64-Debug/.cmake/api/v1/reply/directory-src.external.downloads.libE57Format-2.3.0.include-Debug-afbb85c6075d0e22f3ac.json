@@ -1,0 +1,47 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/external/downloads/libE57Format-2.3.0/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/E57Format",
+			"paths" : 
+			[
+				"src/external/downloads/libE57Format-2.3.0/include/E57Format.h",
+				"src/external/downloads/libE57Format-2.3.0/include/E57Exception.h",
+				"src/external/downloads/libE57Format-2.3.0/include/E57SimpleData.h",
+				"src/external/downloads/libE57Format-2.3.0/include/E57SimpleReader.h",
+				"src/external/downloads/libE57Format-2.3.0/include/E57SimpleWriter.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/libE57Format-2.3.0/include",
+		"source" : "src/external/downloads/libE57Format-2.3.0/include"
+	}
+}

@@ -1,0 +1,81 @@
+E57Format_autogen/timestamp: \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCompilerFlag.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindXercesC.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/exportheader.cmake.in \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/libE57Format-2.3.0/E57Export.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/cmake/Modules/ClangFormat.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/cmake/Modules/E57ExportHeader.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/cmake/Modules/Tags.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/extern/CRCpp/inc/CRC.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/include/E57Exception.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/include/E57Format.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/include/E57SimpleData.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/include/E57SimpleReader.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/include/E57SimpleWriter.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/BlobNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/BlobNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CheckedFile.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CheckedFile.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Common.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Common.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorReaderImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorReaderImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorWriterImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/CompressedVectorWriterImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/DecodeChannel.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/DecodeChannel.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Decoder.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Decoder.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57Exception.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57Format.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57SimpleData.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57SimpleReader.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57SimpleWriter.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57Version.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57XmlParser.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/E57XmlParser.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Encoder.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Encoder.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/FloatNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/FloatNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ImageFileImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ImageFileImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/IntegerNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/IntegerNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/NodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/NodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Packet.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/Packet.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ReaderImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ReaderImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ScaledIntegerNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/ScaledIntegerNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/SectionHeaders.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/SectionHeaders.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/SourceDestBufferImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/SourceDestBufferImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/StringNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/StringNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/StructureNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/StructureNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/VectorNodeImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/VectorNodeImpl.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/WriterImpl.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/libE57Format-2.3.0/src/WriterImpl.h \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

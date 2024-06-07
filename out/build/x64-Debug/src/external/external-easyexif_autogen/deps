@@ -1,0 +1,40 @@
+external-easyexif_autogen/timestamp: \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBoost.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPkgConfig.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindXercesC.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindLib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindOpenCTM.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/Findmuparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/boost.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/cgal.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config-version.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets-release.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/e57.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/easyexif-1.0/exif.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/easyexif-1.0/exif.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/easyexif.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/embree.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/glew.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/levmar.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/lib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/libigl.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/muparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/newuoa.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/nexus.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/openctm.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/qhull.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/ssynth.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/tinygltf.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/u3d.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/xerces.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

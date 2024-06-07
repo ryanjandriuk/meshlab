@@ -1,0 +1,68 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/common_gui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "meshlab-common::@af79f3804eddddbfa7f1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Core"
+	},
+	"id" : "meshlab-common-gui_autogen_timestamp_deps::@629d86d334ecbef8606e",
+	"isGeneratorProvided" : true,
+	"name" : "meshlab-common-gui_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/common_gui",
+		"source" : "src/common_gui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/common_gui/CMakeFiles/meshlab-common-gui_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/common_gui/CMakeFiles/meshlab-common-gui_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_meshlab_plugin"
+		],
+		"files" : 
+		[
+			"src/cmake/meshlab_tools.cmake",
+			"src/meshlabplugins/render_gdp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"destination" : "plugins",
+			"paths" : 
+			[
+				"src/distrib/plugins/render_gdp.dll"
+			],
+			"targetId" : "render_gdp::@67183d75f4fd0fab5f86",
+			"targetIndex" : 434,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Plugins",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "render_gdp::@67183d75f4fd0fab5f86",
+				"index" : 434
+			},
+			"destination" : "plugins",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/render_gdp",
+		"source" : "src/meshlabplugins/render_gdp"
+	}
+}

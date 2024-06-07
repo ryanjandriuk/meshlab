@@ -1,0 +1,499 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"src/external/glew.cmake",
+			"src/external/CMakeLists.txt",
+			"src/external/cgal.cmake",
+			"src/external/embree.cmake",
+			"src/external/lib3ds.cmake",
+			"src/external/muparser.cmake",
+			"src/external/u3d.cmake",
+			"src/external/xerces.cmake",
+			"src/external/e57.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 91,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 71,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 84,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 58,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 38,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 49,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"file" : 8,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 42,
+				"parent" : 23
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/external-glew.lib"
+			],
+			"targetId" : "external-glew::@7056580cebaa042347d1",
+			"targetIndex" : 196,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/external-glew.dll"
+			],
+			"targetId" : "external-glew::@7056580cebaa042347d1",
+			"targetIndex" : 196,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "external-glew::@7056580cebaa042347d1",
+				"index" : 196
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/CGAL-5.6/auxiliary/gmp/lib/libmpfr-4.lib",
+				"src/external/downloads/CGAL-5.6/auxiliary/gmp/lib/libmpfr-4.dll",
+				"src/external/downloads/CGAL-5.6/auxiliary/gmp/lib/libgmp-10.lib",
+				"src/external/downloads/CGAL-5.6/auxiliary/gmp/lib/libgmp-10.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/embree-4.3.0.x64.windows/bin/embree4.dll",
+				"src/external/downloads/embree-4.3.0.x64.windows/bin/tbb12.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/external-lib3ds.lib"
+			],
+			"targetId" : "external-lib3ds::@7056580cebaa042347d1",
+			"targetIndex" : 199,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/external-lib3ds.dll"
+			],
+			"targetId" : "external-lib3ds::@7056580cebaa042347d1",
+			"targetIndex" : 199,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "external-lib3ds::@7056580cebaa042347d1",
+				"index" : 199
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/muparser-2.3.3-1/muparser.lib"
+			],
+			"targetId" : "muparser::@2d13d90c13fcee86d97e",
+			"targetIndex" : 391,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/muparser.dll"
+			],
+			"targetId" : "muparser::@2d13d90c13fcee86d97e",
+			"targetIndex" : 391,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "muparser::@2d13d90c13fcee86d97e",
+				"index" : 391
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/u3d-1.5.1/IDTF.lib"
+			],
+			"targetId" : "IDTF::@d7c340a880c2506bfe68",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "IDTF::@d7c340a880c2506bfe68",
+				"index" : 51
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/u3d-1.5.1/IFXCore.lib"
+			],
+			"targetId" : "IFXCore::@d7c340a880c2506bfe68",
+			"targetIndex" : 54,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/IFXCore.dll"
+			],
+			"targetId" : "IFXCore::@d7c340a880c2506bfe68",
+			"targetIndex" : 54,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "IFXCore::@d7c340a880c2506bfe68",
+				"index" : 54
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/u3d-1.5.1/IFXExporting.lib"
+			],
+			"targetId" : "IFXExporting::@d7c340a880c2506bfe68",
+			"targetIndex" : 60,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/IFXExporting.dll"
+			],
+			"targetId" : "IFXExporting::@d7c340a880c2506bfe68",
+			"targetIndex" : 60,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "IFXExporting::@d7c340a880c2506bfe68",
+				"index" : 60
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/u3d-1.5.1/IFXScheduling.lib"
+			],
+			"targetId" : "IFXScheduling::@d7c340a880c2506bfe68",
+			"targetIndex" : 63,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/IFXScheduling.dll"
+			],
+			"targetId" : "IFXScheduling::@d7c340a880c2506bfe68",
+			"targetIndex" : 63,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "IFXScheduling::@d7c340a880c2506bfe68",
+				"index" : 63
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/xerces-c-3.2.4/src/xerces-c_3D.lib"
+			],
+			"targetId" : "xerces-c::@6ebdca842c085180fb5c",
+			"targetIndex" : 466,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/xerces-c_3_2D.dll"
+			],
+			"targetId" : "xerces-c::@6ebdca842c085180fb5c",
+			"targetIndex" : 466,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "xerces-c::@6ebdca842c085180fb5c",
+				"index" : 466
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/external/downloads/libE57Format-2.3.0/E57Format-d.lib"
+			],
+			"targetId" : "E57Format::@7b5f93adb6c4759bc9a8",
+			"targetIndex" : 33,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/E57Format-d.dll"
+			],
+			"targetId" : "E57Format::@7b5f93adb6c4759bc9a8",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "E57Format::@7b5f93adb6c4759bc9a8",
+				"index" : 33
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external",
+		"source" : "src/external"
+	}
+}

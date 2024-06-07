@@ -10,6 +10,8 @@ include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/meshlab_tools.cmake")
 #message(STATUS "Searching for required components")
 find_package(OpenGL REQUIRED)
 
+
+list(APPEND CMAKE_PREFIX_PATH "C:/Qt/5.15.2/msvc2019_64")
 find_package(
 	Qt5
 	COMPONENTS OpenGL Xml Network
@@ -134,8 +136,9 @@ if(NOT DEFINED MESHLAB_PLUGINS) # it may be already defined in parent directory
 		meshlabplugins/io_pdb
 		meshlabplugins/io_tri
 		meshlabplugins/io_txt
-		meshlabplugins/io_u3d
-		meshlabplugins/io_x3d
+                meshlabplugins/io_u3d
+                meshlabplugins/io_x3d
+                meshlabplugins/io_las
 
 		# Filter plugins
 		meshlabplugins/filter_sample

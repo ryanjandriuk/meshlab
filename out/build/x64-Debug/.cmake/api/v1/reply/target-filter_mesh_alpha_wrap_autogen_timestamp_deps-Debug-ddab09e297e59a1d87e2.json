@@ -1,0 +1,68 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/meshlabplugins/filter_mesh_alpha_wrap/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "meshlab-common::@af79f3804eddddbfa7f1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Plugins"
+	},
+	"id" : "filter_mesh_alpha_wrap_autogen_timestamp_deps::@4118901bb60aaf441779",
+	"isGeneratorProvided" : true,
+	"name" : "filter_mesh_alpha_wrap_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/meshlabplugins/filter_mesh_alpha_wrap",
+		"source" : "src/meshlabplugins/filter_mesh_alpha_wrap"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_mesh_alpha_wrap/CMakeFiles/filter_mesh_alpha_wrap_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/meshlabplugins/filter_mesh_alpha_wrap/CMakeFiles/filter_mesh_alpha_wrap_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

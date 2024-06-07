@@ -1,0 +1,54 @@
+external-openctm_autogen/timestamp: \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBoost.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPkgConfig.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindXercesC.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindLib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindOpenCTM.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/Findmuparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/boost.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/cgal.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/compressMG1.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/compressMG2.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/compressRAW.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/Alloc.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/Alloc.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzFind.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzFind.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaDec.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaDec.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaEnc.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaEnc.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaLib.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/liblzma/LzmaLib.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/openctm.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/openctm.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/OpenCTM-1.0.3/lib/stream.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config-version.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets-release.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/e57.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/easyexif.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/embree.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/glew.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/levmar.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/lib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/libigl.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/muparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/newuoa.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/nexus.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/openctm.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/qhull.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/ssynth.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/tinygltf.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/u3d.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/xerces.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

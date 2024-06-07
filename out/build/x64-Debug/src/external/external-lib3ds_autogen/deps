@@ -1,0 +1,76 @@
+external-lib3ds_autogen/timestamp: \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBoost.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPkgConfig.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindXercesC.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindLib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/FindOpenCTM.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/cmake/Findmuparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/boost.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/cgal.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config-version.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-config.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets-release.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/embree-4.3.0.x64.windows/lib/cmake/embree-4.3.0/embree-targets.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/atmosphere.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/atmosphere.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/background.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/background.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/camera.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/camera.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/chunk.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/chunk.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/chunktable.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/ease.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/ease.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/file.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/file.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/io.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/io.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/light.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/light.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/material.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/material.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/matrix.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/matrix.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/mesh.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/mesh.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/node.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/node.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/quat.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/quat.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/shadow.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/shadow.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/tcb.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/tcb.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/tracks.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/tracks.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/types.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/vector.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/vector.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/viewport.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/lib3ds-1.3.0/lib3ds/viewport.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/e57.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/easyexif.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/embree.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/glew.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/levmar.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/lib3ds.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/libigl.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/muparser.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/newuoa.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/nexus.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/openctm.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/qhull.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/ssynth.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/tinygltf.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/u3d.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/xerces.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

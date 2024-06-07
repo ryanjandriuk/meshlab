@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"src/external/downloads/nexus-master/src/corto/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/nexus-master/src/corto/cortod.lib"
+			],
+			"targetId" : "corto::@1c52603b74e1e2d96c53",
+			"targetIndex" : 143,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/corto",
+			"paths" : 
+			[
+				"src/external/downloads/nexus-master/src/corto/include/corto/bitstream.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/color_attribute.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/corto.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/cstream.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/decoder.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/encoder.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/index_attribute.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/normal_attribute.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/point.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/tunstall.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/vertex_attribute.h",
+				"src/external/downloads/nexus-master/src/corto/include/corto/zpoint.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/nexus-master/src/corto",
+		"source" : "src/external/downloads/nexus-master/src/corto"
+	}
+}

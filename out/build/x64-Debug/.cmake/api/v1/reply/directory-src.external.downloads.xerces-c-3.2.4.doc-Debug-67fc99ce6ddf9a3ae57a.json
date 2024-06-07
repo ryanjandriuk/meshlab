@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/external/downloads/xerces-c-3.2.4/doc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "development",
+			"destination" : "share/doc/MeshLab",
+			"paths" : 
+			[
+				"src/external/downloads/xerces-c-3.2.4/doc/html"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "development",
+			"destination" : "share/doc/MeshLab",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/xerces-c-3.2.4/doc/html"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/xerces-c-3.2.4/doc",
+		"source" : "src/external/downloads/xerces-c-3.2.4/doc"
+	}
+}

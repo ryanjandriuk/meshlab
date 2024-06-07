@@ -1,0 +1,225 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/external/downloads/xerces-c-3.2.4/samples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/CreateDOMDocument.exe"
+			],
+			"targetId" : "CreateDOMDocument::@ae8d883aafaa30f54367",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/DOMCount.exe"
+			],
+			"targetId" : "DOMCount::@ae8d883aafaa30f54367",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/DOMPrint.exe"
+			],
+			"targetId" : "DOMPrint::@ae8d883aafaa30f54367",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/EnumVal.exe"
+			],
+			"targetId" : "EnumVal::@ae8d883aafaa30f54367",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/MemParse.exe"
+			],
+			"targetId" : "MemParse::@ae8d883aafaa30f54367",
+			"targetIndex" : 72,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/PParse.exe"
+			],
+			"targetId" : "PParse::@ae8d883aafaa30f54367",
+			"targetIndex" : 91,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/PSVIWriter.exe"
+			],
+			"targetId" : "PSVIWriter::@ae8d883aafaa30f54367",
+			"targetIndex" : 94,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/Redirect.exe"
+			],
+			"targetId" : "Redirect::@ae8d883aafaa30f54367",
+			"targetIndex" : 100,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SAX2Count.exe"
+			],
+			"targetId" : "SAX2Count::@ae8d883aafaa30f54367",
+			"targetIndex" : 103,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SAX2Print.exe"
+			],
+			"targetId" : "SAX2Print::@ae8d883aafaa30f54367",
+			"targetIndex" : 106,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SAXCount.exe"
+			],
+			"targetId" : "SAXCount::@ae8d883aafaa30f54367",
+			"targetIndex" : 109,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SAXPrint.exe"
+			],
+			"targetId" : "SAXPrint::@ae8d883aafaa30f54367",
+			"targetIndex" : 112,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SCMPrint.exe"
+			],
+			"targetId" : "SCMPrint::@ae8d883aafaa30f54367",
+			"targetIndex" : 115,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/SEnumVal.exe"
+			],
+			"targetId" : "SEnumVal::@ae8d883aafaa30f54367",
+			"targetIndex" : 118,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/StdInParse.exe"
+			],
+			"targetId" : "StdInParse::@ae8d883aafaa30f54367",
+			"targetIndex" : 121,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/XInclude.exe"
+			],
+			"targetId" : "XInclude::@ae8d883aafaa30f54367",
+			"targetIndex" : 130,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/xerces-c-3.2.4/samples",
+		"source" : "src/external/downloads/xerces-c-3.2.4/samples"
+	}
+}

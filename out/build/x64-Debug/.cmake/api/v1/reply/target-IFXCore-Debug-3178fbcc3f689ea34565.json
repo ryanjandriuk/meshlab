@@ -1,0 +1,6113 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/distrib/IFXCore.dll"
+		},
+		{
+			"path" : "src/external/downloads/u3d-1.5.1/IFXCore.lib"
+		},
+		{
+			"path" : "src/distrib/IFXCore.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"include",
+			"install",
+			"add_compile_options",
+			"add_definitions",
+			"ADD_DEFINITIONS",
+			"include_directories",
+			"target_include_directories",
+			"SET_PROPERTY"
+		],
+		"files" : 
+		[
+			"src/external/downloads/u3d-1.5.1/cmake/IFXCore.cmake",
+			"src/external/downloads/u3d-1.5.1/CMakeLists.txt",
+			"src/external/u3d.cmake",
+			"src/external/CMakeLists.txt",
+			"src/cmake/meshlab_global_settings.cmake",
+			"src/CMakeLists.txt",
+			"src/external/downloads/u3d-1.5.1/cmake/external.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 38,
+				"parent" : 6
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 7,
+				"parent" : 8
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 32,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 29,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 62,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 72,
+				"parent" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 31,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 183,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 78,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 79,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 171,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 180,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 255,
+				"parent" : 14
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "IFXCore_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "NO_FSEEKO"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "U3D_NO_ASM"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/png"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Platform/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Base"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BitStream"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Bones"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Mesh"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Palette"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Rendering"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Shaders"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Texture"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/FNVHash"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++14 -MDd"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "IFXCore_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "NO_FSEEKO"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "U3DCorePath=\".\""
+				},
+				{
+					"backtrace" : 26,
+					"define" : "U3DPluginsPath=\"Plugins\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "U3D_NO_ASM"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/png"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Platform/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Base"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BitStream"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Bones"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Mesh"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Palette"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Rendering"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Shaders"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Texture"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/FNVHash"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "IFXCore_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "NO_FSEEKO"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "U3D_NO_ASM"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/png"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Platform/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Base"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BitStream"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Bones"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Mesh"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Palette"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Rendering"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Shaders"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Texture"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/FNVHash"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				648
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "IFXCore_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "NO_FSEEKO"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "U3D_NO_ASM"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/build/x64-Debug/src/external/downloads/u3d-1.5.1"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/png"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Platform/Include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Base"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BitStream"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Bones"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Mesh"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Palette"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Rendering"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Shaders"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/Texture"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Kernel/Common"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/FNVHash"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "IFXCore_autogen_timestamp_deps::@d7c340a880c2506bfe68"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "IFXCore_autogen::@d7c340a880c2506bfe68"
+		}
+	],
+	"id" : "IFXCore::@d7c340a880c2506bfe68",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "."
+			},
+			{
+				"backtrace" : 7,
+				"path" : "."
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/DEF:src\\external\\downloads\\u3d-1.5.1\\CMakeFiles\\IFXCore.dir\\.\\exports.def",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "IFXCore",
+	"nameOnDisk" : "IFXCore.dll",
+	"paths" : 
+	{
+		"build" : "src/external/downloads/u3d-1.5.1",
+		"source" : "src/external/downloads/u3d-1.5.1"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				648,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				649,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				752,
+				753,
+				754,
+				755
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				756
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				757
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/IFXCore/IFXCoreDllMain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/IFXCorePluginStatic/IFXCorePluginStatic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/Common/IFXOSLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/Common/IFXOSRenderWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/Common/IFXOSUtilities.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXCoincidentVertexMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXCornerIter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXEuler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXFatCornerIter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXTransform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXVectorHasher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXVertexMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXVertexMapGroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXBitStreamX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXDataBlockQueueX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXDataBlockX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/IFXHistogramDynamic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXAnimationModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXBoneWeightsModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXSkeleton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneCacheArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBonesManagerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXCharacter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXCoreNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXKeyTrack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMeshGroup_Character.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMixerQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMixerQueueImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotionManagerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotionMixerImpl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXSkin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXSkin_p3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXVertexWeight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXVertexWeights.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXAABBHierarchyBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXAxisAlignedBBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundFace.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundHierarchy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundUtil.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBTreeNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXCollisionResult.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXPickObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXPrimitiveOverlap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXResultAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXAuthorCLODGen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXAuthorMeshMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXSetAdjacencyX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXSetX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CLODGenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/ContractionRecorder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Face.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Matrix4x4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/NormalMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Pair.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairFinder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairHash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairHeap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Primitives.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Vertex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/VertexPairContractor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXCoreServices.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXCoreServicesRef.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXHashMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXIDManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXMetaData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXNameMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXSimpleHash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXVoidWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/IFXComponentDescriptorList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/IFXComponentIds.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/IFXDids.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorCLODResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorMeshScrub.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXCLODModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXMeshCompiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXMeshMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/IFXCLODManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/IFXNeighborResController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourExtruder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourGenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourTessellator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph2DCommands.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph2DModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph3DGenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyphCommandList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXQuadEdge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSetAnalyzer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSetResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet/CIFXAuthorPointSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet/CIFXAuthorPointSetResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXInterleavedData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXMeshGroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXNeighborMesh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXRenderable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/IFXFaceLists.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXDidRegistry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierChain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierDataElementIter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierDataPacket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXSubject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/IFXModifierChainState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Palette/CIFXPalette.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Palette/CIFXSimpleObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXBoundSphereDataElement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXDevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXDummyModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXFileReference.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXGroup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLight.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLightResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLightSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMarker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMaterialResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMixerConstruct.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMotionResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXResourceClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSceneGraph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXShaderList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSimpleCollection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSimpleList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXViewResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/IFXRenderPass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShaderLitTexture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShadingModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/CIFXSubdivModifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXAttributeNeighborhood.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXButterflyScheme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXScreenSpaceMetric.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXSharedUnitAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXSubdivisionManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTAddress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTAttribute.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTBaseTriangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTTriangleAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTTriangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXVertexAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXImageTools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXTextureImageTools.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXTextureObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVGenerator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperCylindrical.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperNone.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperPlanar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperReflection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperSpherical.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/CIFXConnector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/CIFXPerformanceTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/IFXCheckX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXComponentManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXGUIDHashMap.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXPluginProxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/IFXCom.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Memory/IFXMemory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXCoreArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXCoreList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXFastAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXListNode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXMatrix4x4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXQuaternion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXString.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXUnitAllocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXVector3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/DataTypes/IFXVector4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards/wcmatch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates/predicates.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/IFXDebug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/CArrayList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/DX7asDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXACContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAdaptiveMetric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAnimationModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAttributes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorCLODAccess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorCLODGen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorCLODMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorCLODResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorGeomCompiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorLineSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorLineSetAccess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorLineSetAnalyzer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorLineSetResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorMeshMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorMeshScrub.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorPointSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorPointSetAccess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorPointSetResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAuthorUpdate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXAutoPtr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBaseOpenGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBitStreamCompressedX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBitStreamX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBlendParam.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBlockReaderX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBlockTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBlockWriterX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBones.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBonesManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoneWeightsModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoundHierarchy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoundHierarchyMgr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoundingBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoundSphereDataElement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBoundVolume.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXBTTHash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXClock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCLODManagerInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCLODModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCoincidentVertexMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCollection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCoreCIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCoreServices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCoreServicesRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXCornerIter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDataBlock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDataBlockQueueX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDataBlockX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDataPacket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDecoderChainX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDecoderX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDeque.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDidRegistry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDids.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDirectX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDirectX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXDummyModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXEncoderX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXEnums.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXErrorInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXEuler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXExportingCIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXExportingInterfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXExportOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXExtensionDecoderX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXExtensionEncoderX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFastAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFastHeap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFatCornerIter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFileReference.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXFrustum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXGlyph2DCommands.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXGlyph2DModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXGlyphCommandList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXHash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXHashMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXHistogramDynamic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXIDManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXImageCodec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXImportingCIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXImportingInterfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXInet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXInstant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXInterleavedData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXIterators.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXKeyFrame.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXKeyTrack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXKeyTrackArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXLight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXLightResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXLightSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXLine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXListContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXListNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXLoadManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMarker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMarkerX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMaterialResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMeshCompiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMeshGroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMeshMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMetaDataX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMixerConstruct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMixerQueue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModifierBaseDecoder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModifierChain.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModifierDataElementIter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXModifierDataPacket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMotion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMotionManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMotionMixer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXMotionResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNameMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNeighborFace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNeighborMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNeighborResControllerIntfc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNotificationInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXNotificationManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXObserver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXOpenGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXPalette.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXPickObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXProgressCallback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXReadBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXReadBufferX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRender.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderBlend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderCaps.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderClear.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderFog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderingCIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderingInterfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderLight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderMaterial.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderPass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderServices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderStencil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderTexUnit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXRenderView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXResourceClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSceneGraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXScheduler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSchedulerInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSchedulerTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSchedulingCIDs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSchedulingInterfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXScreenSpaceMetricInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSetAdjacencyX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSetX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXShaderList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXShaderLitTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXShadingModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSimpleHash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSimpleList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSimulationInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSimulationManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSimulationTask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSkeleton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSkeletonDataElement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSkeletonMixer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSmartPtr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSpatial.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSpatialAssociation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSpatialSetQuery.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXStdio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSubdivManagerInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSubdivModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSubject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXSystemManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTaskCallback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTaskData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTaskManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTaskManagerNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTaskManagerView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTextureImageTools.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTextureObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTimeManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTransform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXTransformStack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXUnitAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXUpdates.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXUpdatesGroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXUVGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXUVMapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVertexAttributes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVertexIndexer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVertexMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVertexMapGroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXViewResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVoidStar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXVoidWrapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXWriteBuffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXWriteBufferX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/IFXWriteManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Include/InsertionSort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXAutoRelease.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXCheckX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXCOM.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXConnection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXConnectionServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXDataTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXDebug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXException.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXGUID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXIPP.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXMatrix4x4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXMemory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXPerformanceTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXPlugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXQuaternion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXResultComponentEngine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXString.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXUnknown.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXVector2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXVector3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXVector4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Include/IFXVersion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXAPI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXOSFileIterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXOSLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXOSRender.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXOSSocket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXOSUtilities.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Include/IFXRenderWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Base/IFXVectorHasher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXBitStreamX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXDataBlockQueueX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BitStream/CIFXDataBlockX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXAnimationModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXBoneWeightsModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/CIFXSkeleton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneCache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneCacheArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneLinks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBoneNodeList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXBonesManagerImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXCharacter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXConstraints.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXCoreNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXCylinder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXIKModes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXKeyFrameContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXLong3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMatrix3x4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMeshGroup_Character.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMeshGroup_Impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMeshInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMeshVertexMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMixerQueueImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotionManagerImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotionMixerImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXMotionReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXPackWeights.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXSkin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXVertexWeight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Bones/IFXVertexWeights.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXAABBHierarchyBuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXAxisAlignedBBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundFace.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundHierarchy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBoundUtil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXBTreeNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXCollisionResult.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXPickObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXPrimitiveOverlap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/BoundHierarchy/CIFXResultAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXAuthorCLODGen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXAuthorMeshMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXSetAdjacencyX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CIFXSetX.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CLODGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/ContractionRecorder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/CostMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Face.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/FaceExam.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/FacePtrSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/FaceUpdate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/GeometryObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/IFXSList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Matrix4x4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/NormalMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Pair.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairFinder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairHash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/PairHeap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Primitives.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/QEConstants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/SmallPtrSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/Vertex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/CLODAuthor/VertexPairContractor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXCoreServices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXCoreServicesRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXHashMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXIDManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXMetaData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXNameMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXSimpleHash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/CIFXVoidWrapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Common/IFXComponentFactories.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorCLODResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXAuthorMeshScrub.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXCLODModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXMeshCompiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/CIFXMeshMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/IFXCLODManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/CLOD/IFXNeighborResController.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContour.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourExtruder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXContourTessellator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGeom2D.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph2DCommands.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph2DModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyph3DGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXGlyphCommandList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/CIFXQuadEdge.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/IFXContour.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/IFXContourExtruder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/IFXContourGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/IFXContourTessellator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/Glyph2D/IFXGlyph3DGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSetAnalyzer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/LineSet/CIFXAuthorLineSetResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet/CIFXAuthorPointSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Generators/PointSet/CIFXAuthorPointSetResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXInterleavedData.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXMeshGroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXNeighborMesh.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/CIFXRenderable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Mesh/IFXFaceLists.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXDidRegistry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierChain.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierDataElementIter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXModifierDataPacket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXObserverStateTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CIFXSubject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/CRedBlackTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/IFXModifierChainInternal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/IFXModifierChainState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/IFXModifierDataPacketInternal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/ModifierChain/IFXSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Palette/CIFXPalette.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Palette/CIFXSimpleObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXDeviceBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXDeviceLight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXDeviceTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXDeviceTexUnit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXRender.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXRenderContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXRenderDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/CIFXRenderServices.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXDeviceLightDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXDeviceTextureDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXDeviceTexUnitDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXDirectX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXRenderDeviceDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/CIFXRenderDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX7/IFXRenderPCHDX7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXDeviceLightDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXDeviceTextureDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXDeviceTexUnitDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXDirectX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXRenderDeviceDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/CIFXRenderDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/DX8/IFXRenderPCHDX8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/IFXAAFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/IFXRenderPCH.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/CIFXDeviceLightNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/CIFXDeviceTextureNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/CIFXDeviceTexUnitNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/CIFXRenderDeviceNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/CIFXRenderNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/Null/IFXRenderPCHNULL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXDeviceLightOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXDeviceTextureOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXDeviceTexUnitOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXOpenGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXRenderDeviceOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/CIFXRenderOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Rendering/OpenGL/IFXRenderPCHOGL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXBoundSphereDataElement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXDummyModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXFileReference.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXGroup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLight.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLightResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXLightSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMarker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMaterialResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMixerConstruct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXMotionResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXResourceClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSceneGraph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXShaderList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSimpleCollection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXSimpleList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/CIFXViewResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/SceneGraph/IFXSceneGraphPCH.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShaderLitTexture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Shaders/CIFXShadingModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/CIFXSubdivModifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXAttributeNeighborhood.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXBFMaskLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXButterflyMask.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXButterflyScheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXScreenSpaceMetric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXSharedUnitAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXSpecularMetric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXSubdivisionManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTAddress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTAttribute.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTBaseTriangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTTriangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTTriangleAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXTQTVertex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Subdiv/IFXVertexAllocator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXImageTools.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXTextureImageTools.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXTextureObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/CIFXUtilities.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/Texture/IFXTextureErrors.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperCylindrical.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperNone.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperPlanar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperReflection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Component/UVGenerator/CIFXUVMapperSpherical.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXComponentManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXGuidHashMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/IFXCom/CIFXPluginProxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/CIFXConnector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Kernel/Common/CIFXPerformanceTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/FNVHash/FNVPlusPlus.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/Predicates/predicates.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/WildCards/wcmatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/IFXCore/IFXCore.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/IFXCore/IFXResource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Platform/Win32/IFXCore/IFXCore.def",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/adler32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/crc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/deflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/gzclose.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/gzlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/gzread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/gzwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/infback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inftrees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inffast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/trees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/uncompr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/zutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "out/build/x64-Debug/src/external/downloads/u3d-1.5.1/zconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/zlib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/crc32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/deflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/gzguts.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inffast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inffixed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/inftrees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/trees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/zlib/zutil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/png.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pnglibconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngdebug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pnginfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngpriv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngstruct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngpread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngrio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngrtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngrutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngwio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngwtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/png/pngwutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jmemnobs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jaricom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcarith.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jccoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jccolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcdctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jchuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcinit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcomapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcparam.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcprepct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jcsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jctrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdarith.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdatadst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdatasrc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdcoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdcolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jddctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdhuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdinput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdmerge.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdpostct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jfdctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jfdctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jfdctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jidctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jidctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jidctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jquant1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jquant2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jutils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jmemmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jerror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jmorecfg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jpeglib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "out/build/x64-Debug/src/external/downloads/u3d-1.5.1/jconfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/cderror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jdct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jinclude.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jmemsys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jpegint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/jversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "src/external/downloads/u3d-1.5.1/RTL/Dependencies/jpeg/transupp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/src/external/downloads/u3d-1.5.1/IFXCore_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

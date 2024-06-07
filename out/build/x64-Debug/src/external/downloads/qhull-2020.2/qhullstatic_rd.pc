@@ -1,0 +1,10 @@
+prefix=C:/Users/SynGeo5952/Documents/GitHub/meshlab/out/install/x64-Debug
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullstatic_rd
+Description: Qhull reentrant static library
+Version: 8.0.2
+Libs: -L${libdir} -lqhullstatic_rd
+Cflags: -I${includedir}
+

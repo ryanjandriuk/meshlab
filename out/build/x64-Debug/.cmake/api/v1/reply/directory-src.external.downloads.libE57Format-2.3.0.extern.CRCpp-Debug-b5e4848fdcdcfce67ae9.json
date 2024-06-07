@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/libE57Format-2.3.0/extern/CRCpp",
+		"source" : "src/external/downloads/libE57Format-2.3.0/extern/CRCpp"
+	}
+}

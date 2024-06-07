@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/xerces-c-3.2.4/tests",
+		"source" : "src/external/downloads/xerces-c-3.2.4/tests"
+	}
+}

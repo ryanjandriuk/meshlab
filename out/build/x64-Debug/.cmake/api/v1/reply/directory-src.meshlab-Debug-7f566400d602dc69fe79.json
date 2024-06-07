@@ -1,0 +1,56 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/meshlab/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "MeshLab",
+			"destination" : ".",
+			"paths" : 
+			[
+				"src/distrib/meshlab.exe"
+			],
+			"targetId" : "meshlab::@8fcfeda88beef3e93fa9",
+			"targetIndex" : 382,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "MeshLab",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "meshlab::@8fcfeda88beef3e93fa9",
+				"index" : 382
+			},
+			"destination" : ".",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/meshlab",
+		"source" : "src/meshlab"
+	}
+}

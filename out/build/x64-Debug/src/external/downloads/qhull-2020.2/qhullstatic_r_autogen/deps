@@ -1,0 +1,42 @@
+qhullstatic_r_autogen/timestamp: \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/build/CMakeModules/CheckLFS.cmake \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/build/config.cmake.in \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/build/qhull.pc.in \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/geom2_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/geom_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/geom_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/global_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/io_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/io_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/libqhull_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/libqhull_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/mem_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/mem_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/merge_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/merge_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/poly2_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/poly_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/poly_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/qhull_ra.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/qset_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/qset_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/random_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/random_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/rboxlib_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/stat_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/stat_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/user_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/user_r.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/usermem_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/userprintf_r.c \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/qhull-2020.2/src/libqhull_r/userprintf_rbox_r.c \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

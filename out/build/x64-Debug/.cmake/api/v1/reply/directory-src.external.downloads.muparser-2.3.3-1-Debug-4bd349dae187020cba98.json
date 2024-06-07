@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/external/downloads/muparser-2.3.3-1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 144,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Development",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/external/downloads/muparser-2.3.3-1/muparser.lib"
+			],
+			"targetId" : "muparser::@2d13d90c13fcee86d97e",
+			"targetIndex" : 391,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "RuntimeLibraries",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/distrib/muparser.dll"
+			],
+			"targetId" : "muparser::@2d13d90c13fcee86d97e",
+			"targetIndex" : 391,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/external/downloads/muparser-2.3.3-1/include/muParser.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserBase.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserBytecode.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserCallback.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserDLL.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserDef.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserError.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserFixes.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserInt.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserTemplateMagic.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserTest.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserToken.h",
+				"src/external/downloads/muparser-2.3.3-1/include/muParserTokenReader.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/muparser",
+			"exportName" : "muparser-export",
+			"exportTargets" : 
+			[
+				{
+					"id" : "muparser::@2d13d90c13fcee86d97e",
+					"index" : 391
+				}
+			],
+			"paths" : 
+			[
+				"src/external/downloads/muparser-2.3.3-1/CMakeFiles/Export/f4bad9bb078ad8062c3d1d8d4dc8f96d/muparser-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Development",
+			"destination" : "lib/cmake/muparser",
+			"paths" : 
+			[
+				"out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/muparserConfig.cmake",
+				"out/build/x64-Debug/src/external/downloads/muparser-2.3.3-1/muparserConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/muparser.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/external/downloads/muparser-2.3.3-1",
+		"source" : "src/external/downloads/muparser-2.3.3-1"
+	}
+}

@@ -1,0 +1,24 @@
+corto_autogen/timestamp: \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/CMakeLists.txt \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/bitstream.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/color_attribute.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/corto.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/cstream.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/decoder.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/encoder.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/index_attribute.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/normal_attribute.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/point.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/tunstall.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/vertex_attribute.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/include/corto/zpoint.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/bitstream.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/color_attribute.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/corto_codec.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/corto_codec.h \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/cstream.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/decoder.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/encoder.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/normal_attribute.cpp \
+	C:/Users/SynGeo5952/Documents/GitHub/meshlab/src/external/downloads/nexus-master/src/corto/src/tunstall.cpp \
+	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe
